@@ -1,23 +1,21 @@
+# -*- coding: utf-8 -*-
 """
-DM-SUS-Analytics: Plataforma de Análise de Saúde Pública Municipal
-====================================================================
+DM-SUS-Analytics: Plataforma Avançada de Análise de Saúde Pública Municipal
+============================================================================
 Autor: Eduardo Muniz Alves | DM Technology
-Versão: 1.0.0
 
-Framework para análise e otimização da saúde pública municipal
-integrado ao SUS (Sistema Único de Saúde):
-- Indicadores epidemiológicos (mortalidade, morbidade, natalidade)
-- Análise de cobertura vacinal e atenção básica
-- Modelos preditivos de demanda por serviços
-- Otimização de alocação de recursos
-- Geração de relatórios para gestores municipais
-- Integração com bases DATASUS (SIM, SINASC, SIH, SIA, SI-PNI)
+6 módulos integrados para gestão de saúde pública:
+1. Indicadores Epidemiológicos (TMI, RMM, ICSAB, APVP)
+2. Vigilância Epidemiológica em Tempo Real (R(t), CUSUM)
+3. Otimização de Rede de Atenção Básica (p-mediana, ESF)
+4. Predição de Demanda e Gestão de Leitos (Holt-Winters, Erlang-C)
+5. Análise Geoespacial de Determinantes Sociais (IVS, Moran's I, LISA)
+6. Sistema de Alerta Precoce e Scoring Municipal (16 indicadores)
 
-"Saúde pública: o desafio mais nobre da computação.
- Cada linha de código aqui pode salvar vidas.
- Não é hipérbole. É estatística."
+"Saúde pública não é caridade. É ciência.
+ E ciência se faz com dados, não com achismo."
 """
 
-__version__ = "1.0.0"
+__version__ = "2.0.0"
 __author__ = "Eduardo Muniz Alves"
 __company__ = "DM Technology"
